@@ -2,7 +2,10 @@
 
 ## Background
 
-This project is an extension to my original monte carlo simulation using openMP [(repo)](https://github.com/lucasrouchy/Monte_Carlo_Sim). The goal was do some performance testing on a known simulation using CUDA code with a focus on evaluating the impact of block size and the number of trials on the performance of DGX OSU servers. The testing was carried out with SSH connections.
+This project is an extension to my original monte carlo simulation using openMP [(repo)](https://github.com/lucasrouchy/Monte_Carlo_Sim). 
+The goal was do some performance testing on a known simulation using CUDA code with a focus on evaluating the impact of block size and the number of trials on the performance of DGX OSU servers. 
+The testing was carried out with SSH connections.
+
 DGX server specs:
 • 16 NVidia Tesla V100 GPUs
 • 28TB of disk, all SSD
